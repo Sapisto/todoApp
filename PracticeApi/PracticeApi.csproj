@@ -37,6 +37,8 @@
   <ItemGroup>
     <Folder Include="Infrastructure\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Dockerfile\" />
+    <Folder Include=".dockerignore\" />
   </ItemGroup>
 
 </Project>

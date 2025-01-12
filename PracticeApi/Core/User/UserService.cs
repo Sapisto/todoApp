@@ -260,7 +260,7 @@ namespace PracticeApi.Core.UserServices
                 issuer: "Acube",
                 audience: "Acube",
                 claims: claims,
-                expires: DateTime.Now.AddDays(7), // Token expiration
+                expires: DateTime.Now.AddMinutes(30), //Token expiration
                 signingCredentials: creds
             );
 
