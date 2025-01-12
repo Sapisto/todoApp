@@ -56,3 +56,5 @@ C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\obj\Debug\net7.0\Pract
 C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\obj\Debug\net7.0\refint\PracticeApi.dll
 C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\obj\Debug\net7.0\PracticeApi.pdb
 C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\obj\Debug\net7.0\PracticeApi.genruntimeconfig.cache
+C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\bin\Debug\net7.0\PracticeApi.pdb
+C:\Users\AlhassanAbd\source\repos\PracticeApi\PracticeApi\obj\Debug\net7.0\ref\PracticeApi.dll
