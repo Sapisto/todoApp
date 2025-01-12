@@ -8,7 +8,6 @@ using Newtonsoft.Json;
 using System.Net;
 using PracticeApi.Domain.DTO;
 using PracticeApi.Core.Todo;
-using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,9 +59,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Register FluentValidation
-builder.Services.AddControllers()
-    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<TodoDtoValidator>());
 
 
 // Configure Swagger/OpenAPI
