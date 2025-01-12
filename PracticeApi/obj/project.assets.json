@@ -2169,19 +2169,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlhassanAbd\\.nuget\\packages\\": {}
+    "C:\\Users\\AlhassanAbd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlhassanAbd\\source\\repos\\PracticeApi\\PracticeApi\\PracticeApi.csproj",
+      "projectUniqueName": "C:\\Users\\AlhassanAbd\\source\\repos\\todoApp\\PracticeApi\\PracticeApi.csproj",
       "projectName": "PracticeApi",
-      "projectPath": "C:\\Users\\AlhassanAbd\\source\\repos\\PracticeApi\\PracticeApi\\PracticeApi.csproj",
+      "projectPath": "C:\\Users\\AlhassanAbd\\source\\repos\\todoApp\\PracticeApi\\PracticeApi.csproj",
       "packagesPath": "C:\\Users\\AlhassanAbd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlhassanAbd\\source\\repos\\PracticeApi\\PracticeApi\\obj\\",
+      "outputPath": "C:\\Users\\AlhassanAbd\\source\\repos\\todoApp\\PracticeApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\AlhassanAbd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2201,7 +2206,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -2291,7 +2302,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
