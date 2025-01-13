@@ -307,6 +307,18 @@ namespace PracticeApi.Core.UserServices
                 return new GeneralResponse<object>("Current password is incorrect.", 400, false);
             }
 
+            // Ensure the new password matches the confirm new password
+            if (changePasswordRequest.NewPassword != changePasswordRequest.ConfirmNewPassword)
+            {
+                return new GeneralResponse<object>("New password and confirmation password do not match.", 400, false);
+            }
+
+            // Ensure the new password is not the same as the current password
+            if (changePasswordRequest.CurrentPassword == changePasswordRequest.NewPassword)
+            {
+                return new GeneralResponse<object>("New password cannot be the same as the current password.", 400, false);
+            }
+
             // Password complexity validation
             string passwordRegex = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$";
             if (!Regex.IsMatch(changePasswordRequest.NewPassword, passwordRegex))
